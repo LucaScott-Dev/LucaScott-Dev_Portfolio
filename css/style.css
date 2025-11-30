@@ -1,0 +1,47 @@
+.headshot img{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.headshot img:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "TikTok Sans", sans-serif;
+}
+
+.about-me {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "TikTok Sans", sans-serif;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 3rem;
+    margin-top: 50px;
+    
+}
+
+.socials i {
+    color: #000;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    transition: transform 0.4s ease;
+}
+
+.socials i:hover {
+    color: black;
+    transform: scale(1.2);
+}
